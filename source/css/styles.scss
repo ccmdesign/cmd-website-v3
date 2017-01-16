@@ -1,5 +1,22 @@
 ---
 ---
 
+// Breakpoints
+$small-only: (max-width 40em);
+$medium: 40.063em 64em;
+$medium-up: 40.063em;
+$large: 64.063em;
+
+// Colors
+$white: rgba(255,255,255,1);
+$black: rgba(0,0,0,1);
+$green: #00bec0;
+$pink: #db0e6b;
+
+$main-color: $green;
+
+
+@import 'breakpoint';
+@import 'utils';
 @import 'base';
 
