@@ -35,12 +35,13 @@ body {
 .main-logo {
   padding: 40px 0 80px;
   width: 700px;
-  opacity: .7;
+  opacity: .6;
 }
 
 .company-description {
   margin: 0;
   margin-left: 160px;
+  color: rgba(black, .6);
 }
 
 .flex {
@@ -54,21 +55,16 @@ body {
 .flex-item-1 { flex: 1; }
 
 .portfolio-gallery {
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
 }
 
 .portfolio-item {
-  margin: 4px;
-  flex: 1 1 250px;
-  height: auto;
+  margin: 5px;
+  width: calc(25% - 10px);
   border: 1px solid rgba(black, .2);
 
   &__image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width: 100%;
   }
 }
 
