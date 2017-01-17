@@ -5,26 +5,80 @@ title: CCM Design Inc.
 
 <main role="main" class=""> <!-- main content starts here -->
   <header class="master-header">
-    
-      <nav class="main-nav">
-        <div class="wrapper">
-          <a href="#" class="main-nav__item">About</a>
-          <a href="#" class="main-nav__item">Team</a>
-          <a href="#" class="main-nav__item">Projects</a>
-          <a href="#" class="main-nav__item">Contact</a>
-        </div>
-      </nav>
-
-      <div class="wrapper flex">
-        <h1 class="main-logo flex-item-3"><img src="{{ '/images/logo-ccm-design-full.svg' | relative_url }}" alt=""></h1>
-        <div class="company-description flex-item-2">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aut explicabo iusto quos eius nesciunt voluptate, corporis pariatur, numquam ab minus vero maiores doloremque natus in architecto sapiente vitae dicta. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-      </div>
-    
+    <nav class="main-nav">
+      <a href="#" class="main-nav__item">About</a>
+      <a href="#" class="main-nav__item">Team</a>
+      <a href="#" class="main-nav__item">Projects</a>
+      <a href="#" class="main-nav__item">Contact</a>
+    </nav>
   </header>
+    
+  <table class="grid">
+    <tbody>
+      <tr>
+        <td class="grid__item branding" colspan="2">
+          <h1 class="main-logo"><img src="{{ '/images/logo-ccm-design-full.svg' | relative_url }}" alt=""></h1>
+          
+          <div class="company-description">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aut explicabo iusto quos eius nesciunt voluptate, corporis pariatur, numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem in qui porro delectus expedita sint illo ipsa, totam repudiandae voluptate reprehenderit culpa error labore ipsum est inventore id quam!</p>
+          </div>
+        </td>
+        <td class="grid__item">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="grid__item" rowspan=2 colspan=2>
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="2">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="2" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+        <td class="grid__item" colspan="1" rowspan="1">
+          <div class="card grid__inner grid__inner"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
 
-  <div class="wrapper">
+    
+  
+
+  <!-- <div class="wrapper">
 
     <section class="portfolio-gallery">
       {% for i in site.data.portfolio %}
@@ -34,7 +88,7 @@ title: CCM Design Inc.
       {% endfor %}
     </section>
   
-  </div>
+  </div> -->
   
 
   

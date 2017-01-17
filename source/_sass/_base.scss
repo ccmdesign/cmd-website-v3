@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-size: 20px;
@@ -12,7 +14,7 @@ body {
 
 .main-nav {
   text-align: right;
-  background-color: rgba(black, .1);
+  background-color: $main-color;
 
   &__item {
     padding: 14px 23px;
@@ -27,50 +29,77 @@ body {
 }
 
 .master-header {
-  background-color: $main-color;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  
   h1 { margin: 0; }
 }
 
+.main-container {
+  margin-top: 80px;
+}
+
+.branding {
+  padding: 0 40px !important;
+  margin-bottom: 0;
+  vertical-align: middle !important;
+}
+
 .main-logo {
-  padding: 40px 0 80px;
-  width: 700px;
   opacity: .6;
 }
 
 .company-description {
-  margin: 0;
-  margin-left: 160px;
+  margin: 50px 5px 0;
   color: rgba(black, .6);
+  text-align: right;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.card {
+  background-color: rgba(black, .1);
+  color: rgba(black, .4);
+  text-align: center;
+  margin: 0 3px;
+  position: relative;
 
-.flex-item-3 { flex: 3; }
-.flex-item-2 { flex: 2; }
-.flex-item-1 { flex: 1; }
-
-.portfolio-gallery {
-  // display: flex;
-  // flex-wrap: wrap;
-}
-
-.portfolio-item {
-  margin: 5px;
-  width: calc(25% - 10px);
-  border: 1px solid rgba(black, .2);
-
-  &__image {
+  &:after {
+    content: 'Portfolio Item';
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 0;
   }
 }
 
+.grid {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 0;
 
+  tr {
+    width: 100%;
+  }
 
+  &__item {
+    vertical-align: top;
+    padding: 4px 2px;
+  }
+  
+  &__inner {
+    display: block;
+    
+    &:before {
+      display: block;
+      padding-bottom: 100%;
+      content: '';
+    }
+  }
 
+  &__item[colspan='1'] { width: 25%; }
+  &__item[colspan='2'] { width: 50%; }
+  &__item[colspan='2'][rowspan='1'] .grid__inner:before { padding-bottom: calc(50% - 4px); }
+  &__item[colspan='1'][rowspan='2'] .grid__inner:before { padding-bottom: calc(200% + 8px); }
+}
 
 
 
