@@ -1,0 +1,43 @@
+.main-nav {
+  text-align: right;
+  border-bottom: 1px solid rgba(black, .1);
+  // background-color: $main-color;
+
+  &__item {
+    padding: 14px 23px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(black, .6);
+    // text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:hover { 
+      background-color: rgba($main-color, 1); 
+      color: white;
+    }
+  }
+}
+
+.master-header {
+  h1 { margin: 0; }
+}
+
+.branding {
+  padding: 0 40px !important;
+  margin-bottom: 0;
+}
+
+.main-logo { 
+  opacity: .6;
+  padding: 50px 120px;
+
+}
+
+.company-description {
+  margin: 0 5px;
+  color: rgba(black, .6);
+  text-align: right;
+  // vertical-align: middle !important;
+}

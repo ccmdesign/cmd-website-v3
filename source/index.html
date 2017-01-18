@@ -6,75 +6,108 @@ title: CCM Design Inc.
 <main role="main" class=""> <!-- main content starts here -->
   <header class="master-header">
     <nav class="main-nav">
-      <a href="#" class="main-nav__item">About</a>
-      <a href="#" class="main-nav__item">Team</a>
-      <a href="#" class="main-nav__item">Projects</a>
-      <a href="#" class="main-nav__item">Contact</a>
+      <div class="wrapper">
+        <a href="#" class="main-nav__item">About</a>
+        <a href="#" class="main-nav__item">Team</a>
+        <a href="#" class="main-nav__item">Projects</a>
+        <a href="#" class="main-nav__item">Contact</a>
+      </div>
     </nav>
   </header>
-    
-  <table class="grid">
-    <tbody>
-      <tr>
-        <td class="grid__item branding" colspan="2">
-          <h1 class="main-logo"><img src="{{ '/images/logo-ccm-design-full.svg' | relative_url }}" alt=""></h1>
+
+  <div class="wrapper">
+    <h1 class="main-logo"><img src="{{ '/images/logo-ccm-design-full.svg' | relative_url }}" alt=""></h1>
+  </div>
+
+
+<!-- Try this
+http://stackoverflow.com/questions/30522960/macro-in-liquid-template-language -->
+
+  <div class="wrapper">
+    <table class="grid">
+      <tbody>
+        <tr>
+          <td class="grid__item branding" colspan="2">
+            <div class="company-description">
+              <p>CCM Design is a creative studio specialized in the digital design for the public good. Working with the big players in Open Government and Open Data, we build state of the brands and digital platforms. We are focused on branding, editorial design, and interfaces. Keeping the user at the center of design, UX is the driving force of our digital efforts.</p>
+            </div>
+          </td>
+          <td class="grid__item">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/data-collaboratives-highlight.jpg)" title="Data Collaboratives">
+            </div>
+          </td>
+          <td class="grid__item">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/iodc-2016-highlight.jpg)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="grid__item" rowspan=2 colspan=2>
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/open-data-impact-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/od500-concept.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/more-projects/baskerville-highlight.jpg)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="grid__item" colspan="2" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/data-analytics-for-procurement-logo.jpg)">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/seed-of-change/book-cover.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/open-contracting-logo-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/resilient-cities-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/ogrx-highlight.jpg)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/iodc-2015-report-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/evaluating-digital-citizen-engagement.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="2" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/digital-engagement-logo-highlight.jpg)"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/od4d-annual-report-2015-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="2" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/zika-logo.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/open-north/open-data-catalogs-highlight.jpg)"></div>
+          </td>
           
-          <div class="company-description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aut explicabo iusto quos eius nesciunt voluptate, corporis pariatur, numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem in qui porro delectus expedita sint illo ipsa, totam repudiandae voluptate reprehenderit culpa error labore ipsum est inventore id quam!</p>
-          </div>
-        </td>
-        <td class="grid__item">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="grid__item" rowspan=2 colspan=2>
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="2">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="2" rowspan="1">
-          <div class="card grid__inner grid__inner">
-            
-          </div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-        <td class="grid__item" colspan="1" rowspan="1">
-          <div class="card grid__inner grid__inner"></div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+        <tr>
+          <td class="grid__item" colspan="2" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/noi-logo.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/ict4gov-logo-highlight.jpg)"></div>
+          </td>
+          <td class="grid__item" colspan="1" rowspan="1">
+            <div class="card grid__inner grid__inner" style="background-image: url(images/open-north/open-data-standards-highlight.jpg)"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
   
 
     
