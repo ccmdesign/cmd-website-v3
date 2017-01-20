@@ -1,35 +1,74 @@
 - title: OGRX
-  main_image: ogrx-01.jpg
-  client_name: Govlab
+  client: Govlab
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptas ipsa explicabo. In eligendi voluptate quibusdam ullam enim eos amet quos officiis optio accusamus. Perferendis provident laboriosam, at ullam aperiam?
+  highlight:
+    image: ogrx-highlight.jpg
+    rows: 1
+    cols: 1
   tags:
     - website
-  related_images:
+  main_image: ogrx-01.jpg
+  related-images:
     - ogrx-02.jpg
     - ogrx-03.jpg
     - ogrx-04.jpg
 
-- title: ODImpact
-  main_image: open-data-impact-index.jpg
-  client_name: Govlab
+- title: Data Collaboratives
+  client: Govlab
+  highlight:
+    image: data-collaboratives-highlight.jpg
+    rows: 2
+    cols: 2
   tags:
     - website
-  related_images:
+  main_image: data-collaboratives-highlight.jpg
+  related-images:
+
+- title: Open Data Impact
+  client: Govlab
+  highlight:
+    image: open-data-impact-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - website
+  main_image: open-data-impact-index.jpg
+  related-images:
     - open-data-impact-index-2.jpg
     - open-data-impact-case.jpg
-    
+
+- title: Open Data 500 Logo
+  client: Govlab
+  highlight:
+    image: od500-concept.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - website
+  main_image: od500-concept.jpg
+  related-images:
+
 - title: Data Analytics for Procurement
-  main_image: data-analytics-for-procurement-logo.png
-  client_name: WorldBank
+  client: WorldBank
+  highlight:
+    image: data-analytics-for-procurement-logo.jpg
+    rows: 1
+    cols: 2
   tags:
     - logo
     - branding
-  related_images:
+  main_image: data-analytics-for-procurement-logo.jpg
+  related-images:
 
 - title: Seed of Change
-  main_image: book-cover.jpg
-  client_name: seed-of-change
+  client: seed-of-change
+  highlight:
+    image: book-cover.jpg
+    rows: 1
+    cols: 1
   tags:
     - book
+  main_image: book-cover.jpg
   related-images:
     - book-side.jpg
     - book-side-2.jpg
@@ -51,87 +90,231 @@
     - book-16.jpg
     - book-17.jpg
 
+- title: Open Contracting
+  client: WorldBank
+  highlight: 
+    image: open-contracting-logo-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  main_image: open-contracting-logo-highlight.jpg
+  related-images:
 
+- title: IODC 2015 Report
+  client: IDRC
+  highlight: 
+    image: iodc-2015-report-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - report
+    - branding
+  main_image: iodc-2015-report-highlight.jpg
+  related-images:
 
+- title: IODC 2016 Report
+  client: IDRC
+  highlight:
+    image: iodc-2016-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - report
+    - branding
+  main_image: iodc-2016-highlight.jpg
+  related-images:
 
+- title: Resilient Cities Report
+  client: IDRC
+  highlight:
+    image: resilient-cities-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - report
+    - branding
+  main_image: resilient-cities-highlight.jpg
+  related-images:
 
-# - title: Open Gazettes Website
-#   main_image: open-gazettes-01.jpg
-#   client_name: Open Corporates
-#   tags: 
-#     - website
-#   related_images:
-#     - open-gazettes-02.jpg
-#     - open-gazettes-03.jpg
-#     - open-gazettes-04.jpg
+- title: Baskerville
+  client: More Projects
+  highlight:
+    image: baskerville-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - editorial
+    - branding
+  main_image: baskerville-highlight.jpg
+  related-images:
 
-# - title: Govlab Website
-#   main_image: govlab-website-index.jpg
-#   client_name: Govlab
-#   tags:
-#     - website
-#   related_images:
-#     - govlab-website-projects.jpg
-#     - govlab-website-project-page-1.jpg
-#     - govlab-website-project-page-2.jpg
+- title: Digital Engagement Book
+  client: WorldBank
+  highlight:
+    image: evaluating-digital-citizen-engagement.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - editorial
+    - branding
+  main_image: evaluating-digital-citizen-engagement.jpg
+  related-images:
 
-# - title: Govlab Deck
-#   main_image: govlab-deck-linkedin-01.jpg
-#   client_name: Govlab
-#   tags:
-#     - deck
-#   related_images:
-#     - govlab-deck-linkedin-01.jpg
-#     - govlab-deck-linkedin-02.jpg
-#     - govlab-deck-linkedin-03.jpg
-#     - govlab-deck-linkedin-04.jpg
-#     - govlab-deck-linkedin-05.jpg
-#     - govlab-deck-linkedin-06.jpg
-#     - govlab-deck-linkedin-07.jpg
+- title: Digital Engagement Logo
+  client: WorldBank
+  highlight:
+    image: digital-engagement-logo-highlight.jpg
+    rows: 1
+    cols: 2
+  tags:
+    - logo
+    - branding
+  main_image: digital-engagement-logo-highlight.jpg
+  related-images:
 
-# - title: Govlab Academy
-#   main_image: govlab-academy-1.jpg
-#   client_name: Govlab
-#   tags:
-#     - website
-#   related_images:
-#     - govlab-academy-2.jpg
-#     - govlab-academy-3.jpg
-#     - govlab-academy-4.jpg
+- title: OD4D Annual Report
+  client: IDRC
+  highlight:
+    image: od4d-annual-report-2015-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - editorial
+    - branding
+  main_image: od4d-annual-report-2015-highlight.jpg
+  related-images:
 
-# - title: Open Government
-#   main_image: open-government-logo.png
-#   client_name: WorldBank
-#   tags:
-#     - logo
-#     - branding
-#   related_images:
+- title: Smarter Crowdsourcing - Zika
+  client: Govlab
+  highlight:
+    image: zika-logo.jpg
+    rows: 1
+    cols: 2
+  tags:
+    - logo
+    - branding
+  main_image: zika-logo.jpg
+  related-images:
 
-# - title: Open Government Now
-#   main_image: open-gov-now-website.jpg
-#   client_name: WorldBank
-#   tags:
-#     - website
-#   related_images:
-    
-# - title: Open Gov Impact
-#   main_image: open-gov-impact.png
-#   client_name: WorldBank
-#   tags:
-#     - website
-#   related_images:
-        
-# - title: Procurement Stories
-#   main_image: procurement-stories.png
-#   client_name: WorldBank
-#   tags:
-#     - website
-#   related_images:
+- title: Open Data Catalogs Report
+  client: Open North
+  highlight:
+    image: open-data-catalogs-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - report
+    - branding
+  main_image: open-data-catalogs-highlight.jpg
+  related-images:
 
-# - title: GEI
-#   main_image: gei-website.jpg
-#   client_name: WorldBank
-#   tags:
-#     - website
-#   related_images:
-    
+- title: Open Data Standards Report
+  client: Open North
+  highlight:
+    image: open-data-standards-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - report
+    - branding
+  main_image: open-data-standards-highlight.jpg
+  related-images:
+
+- title: Network of Innovators Logo
+  client: Govlab
+  highlight:
+    image: noi-logo.jpg
+    rows: 1
+    cols: 2
+  tags:
+    - logo
+    - branding
+  main_image: noi-logo.jpg
+  related-images:
+
+- title: ICT4Gov Logo
+  client: WorldBank
+  highlight:
+    image: ict4gov-logo-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  main_image: ict4gov-logo-highlight.jpg
+  related-images:
+
+- title: Karnataka Dashboard
+  client: WorldBank
+  highlight:
+    image: karnataka-mockup-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  main_image: karnataka-mockup-highlight.png
+  related-images:
+
+- title: Collectivites Locales
+  client: WorldBank
+  highlight:
+    image: collectivites-locales-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  main_image: collectivites-locales-highlight.png
+  related-images:
+
+- title: Rio Grande do Norte Mockup
+  client: WorldBank
+  highlight:
+    image: rn-mockup-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  main_image: rn-mockup-highlight.png
+  related-images:
+
+- title: Network of Innovators Interface
+  client: Govlab
+  highlight:
+    image: noi-highlight.png
+    rows: 2
+    cols: 2
+  tags:
+    - interface
+    - frontend
+  main_image: noi-highlight.png
+  related-images:
+
+- title: Collective Intelligence 
+  client: Govlab
+  highlight:
+    image: collective-intelligence-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  main_image: collective-intelligence-highlight.png
+  related-images:
+
+- title: Data Justice Network Logo
+  client: Govlab
+  highlight:
+    image: data-justice-logo-highlight.jpg
+    rows: 1
+    cols: 2
+  tags:
+    - interface
+    - frontend
+  main_image: data-justice-logo-highlight.jpg
+  related-images:
+

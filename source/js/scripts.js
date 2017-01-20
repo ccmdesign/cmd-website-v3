@@ -20,12 +20,23 @@ $(document).ready(function () {
         return true;
     });
 
-
-    $('.portfolio-gallery').isotope({
-      // options
-      itemSelector: '.portfolio-item',
-      layoutMode: 'masonry'
+    $( window ).scroll(function() {
+      console.log($('.main-logo').offset);
     });
+
+    $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      console.log(y);
+
+      if (y > 190) {
+        $('.js-master-header--homepage').addClass('js-scrolled');
+      } else {
+        $('.js-master-header--homepage').removeClass('js-scrolled');
+      }
+    });
+
+
+
 
     // Modal Click Behavior
     // $('.js-open-modal').click(function () {

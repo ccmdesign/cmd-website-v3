@@ -35,8 +35,8 @@ exclude:
 source: ./source
 # sass_dir: source/css
 
-# page_gen:
-#   - data: ''
-#     template: ''
-#     name: ''
-#     dir: ''
+page_gen:
+  - data: 'portfolio'
+    template: 'project-template'
+    name: 'title'
+    dir: '/'

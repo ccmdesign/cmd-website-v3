@@ -3,25 +3,12 @@ layout: default
 title: CCM Design Inc.
 ---
 
-<main role="main" class=""> <!-- main content starts here -->
-  <header class="master-header">
-    <nav class="main-nav">
-      <div class="wrapper">
-        <a href="#" class="main-nav__item">About</a>
-        <a href="#" class="main-nav__item">Team</a>
-        <a href="#" class="main-nav__item">Projects</a>
-        <a href="#" class="main-nav__item">Contact</a>
-      </div>
-    </nav>
-  </header>
+{% include master-header.html class="js-master-header--homepage" %}
 
+<main role="main" class=""> <!-- main content starts here -->
   <div class="wrapper">
     <h1 class="main-logo"><img src="{{ '/images/logo-ccm-design-full.svg' | relative_url }}" alt=""></h1>
   </div>
-
-
-<!-- Try this
-http://stackoverflow.com/questions/30522960/macro-in-liquid-template-language -->
 
   <div class="wrapper">
     <table class="grid">
@@ -32,78 +19,50 @@ http://stackoverflow.com/questions/30522960/macro-in-liquid-template-language --
               <p>CCM Design is a creative studio specialized in the digital design for the public good. Working with the big players in Open Government and Open Data, we build state of the brands and digital platforms. We are focused on branding, editorial design, and interfaces. Keeping the user at the center of design, UX is the driving force of our digital efforts.</p>
             </div>
           </td>
-          <td class="grid__item">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/data-collaboratives-highlight.jpg)" title="Data Collaboratives">
-            </div>
-          </td>
-          <td class="grid__item">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/iodc-2016-highlight.jpg)"></div>
-          </td>
+          {% include highlight-card.html item="Open Data Impact" %}
+          {% include highlight-card.html item="IODC 2016 Report" %}
         </tr>
         <tr>
-          <td class="grid__item" rowspan=2 colspan=2>
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/open-data-impact-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/od500-concept.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/more-projects/baskerville-highlight.jpg)"></div>
-          </td>
+          {% include highlight-card.html item="Data Collaboratives" %}          
+          {% include highlight-card.html item="Open Data 500 Logo" %}
+          {% include highlight-card.html item="OD4D Annual Report" %}
         </tr>
         <tr>
-          <td class="grid__item" colspan="2" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/data-analytics-for-procurement-logo.jpg)">
-            </div>
-          </td>
+          {% include highlight-card.html item="Data Analytics for Procurement" %}
         </tr>
         <tr>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/seed-of-change/book-cover.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/open-contracting-logo-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/resilient-cities-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/ogrx-highlight.jpg)"></div>
-          </td>
+          {% include highlight-card.html item="Seed of Change" %}
+          {% include highlight-card.html item="Open Contracting" %}
+          {% include highlight-card.html item="Resilient Cities Report" %}
+          {% include highlight-card.html item="OGRX" %}
         </tr>
         <tr>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/iodc-2015-report-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/evaluating-digital-citizen-engagement.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="2" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/digital-engagement-logo-highlight.jpg)"></div>
-          </td>
+          {% include highlight-card.html item="IODC 2015 Report" %}
+          {% include highlight-card.html item="Collectivites Locales" %}          
+          {% include highlight-card.html item="Digital Engagement Logo" %}
         </tr>
         <tr>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/idrc/od4d-annual-report-2015-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="2" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/zika-logo.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/open-north/open-data-catalogs-highlight.jpg)"></div>
-          </td>
-          
+          {% include highlight-card.html item="Baskerville" %}          
+          {% include highlight-card.html item="Smarter Crowdsourcing - Zika" %}
+          {% include highlight-card.html item="Digital Engagement Book" %}
         </tr>
         <tr>
-          <td class="grid__item" colspan="2" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/govlab/noi-logo.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/worldbank/ict4gov-logo-highlight.jpg)"></div>
-          </td>
-          <td class="grid__item" colspan="1" rowspan="1">
-            <div class="card grid__inner grid__inner" style="background-image: url(images/open-north/open-data-standards-highlight.jpg)"></div>
-          </td>
+          {% include highlight-card.html item="Network of Innovators Logo" %}
+          {% include highlight-card.html item="ICT4Gov Logo" %}
+          {% include highlight-card.html item="Open Data Standards Report" %}
+        </tr>
+        <tr>
+          {% include highlight-card.html item="Karnataka Dashboard" %}
+          {% include highlight-card.html item="Open Data Catalogs Report" %}
+          {% include highlight-card.html item="Network of Innovators Interface" %}
+        </tr>
+        <tr>
+          {% include highlight-card.html item="Rio Grande do Norte Mockup" %}
+          {% include highlight-card.html item="Collective Intelligence" %}
+        </tr>
+        <tr>
+          {% include highlight-card.html item="Data Justice Network Logo" %}
+          {% include highlight-card.html item="Data Justice Network Logo" %}
         </tr>
       </tbody>
     </table>

@@ -1,14 +1,11 @@
 .main-nav {
   text-align: right;
-  border-bottom: 1px solid rgba(black, .1);
-  // background-color: $main-color;
 
   &__item {
     padding: 14px 23px;
     display: inline-block;
     text-decoration: none;
     color: rgba(black, .6);
-    // text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 1rem;
     font-weight: 400;
@@ -21,23 +18,58 @@
 }
 
 .master-header {
-  h1 { margin: 0; }
+  // border-bottom: 1px solid rgba(black, .1);
+  background-color: rgba(white, .8);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: .4;
+  transition: all .4s ease;
+
+  &:hover {
+    opacity: 1;
+    transition: all .4s ease;
+    // border-bottom-color: $main-color;
+  }
+
+  &__content {
+    display: flex;  
+    margin: 0 auto;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__logo {
+    flex: 1;
+    margin: 0;
+    line-height: 1;
+    transition: all .4s ease;
+    
+    img { 
+      padding: 5px 0;
+      width: 120px;
+      opacity: .7;
+    }
+  }
+
+  &__menu {
+    flex: 6;
+    align-self: flex-end;
+  }
+
+  
 }
 
-.branding {
-  padding: 0 40px !important;
-  margin-bottom: 0;
+// HOMEPAGE: triggers the header logo to show and hide on scroll
+.js-master-header--homepage .master-header__logo { 
+  position: relative;
+  top: -100px;
+  transition: all .4s ease;
 }
-
-.main-logo { 
-  opacity: .6;
-  padding: 50px 120px;
-
-}
-
-.company-description {
-  margin: 0 5px;
-  color: rgba(black, .6);
-  text-align: right;
-  // vertical-align: middle !important;
+.js-scrolled .master-header__logo { 
+  top: 0;
+  transition: all .4s ease;
 }
