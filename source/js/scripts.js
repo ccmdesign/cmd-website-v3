@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     $(document).scroll(function() {
       var y = $(this).scrollTop();
-      console.log(y);
+      // console.log(y);
 
       if (y > 190) {
         $('.js-master-header--homepage').addClass('js-scrolled');
@@ -35,7 +35,19 @@ $(document).ready(function () {
       }
     });
 
+    $('.js-open-modal').click(function () {
+        if ($('.js-target-modal').hasClass('js-active')) {
+          $('.js-target-modal').removeClass('js-active');
+          $('#overlay').removeClass('js-active');
+          $('body').removeClass('js-body-modal-active');
+        } else {
+          $('.js-target-modal').addClass('js-active');
+          $('#overlay').addClass('js-active');
+          $('body').addClass('js-body-modal-active');
+        }
 
+        
+    });
 
 
     // Modal Click Behavior
