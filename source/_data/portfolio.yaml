@@ -116,6 +116,10 @@
 
 - title: IODC 2016 Report
   client: IDRC
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione, quae, sint quibusdam veritatis dolore. Suscipit, nisi laudantium labore debitis eligendi vero aut veniam maiores repellendus, voluptates sint porro in.
+  project_link:
+    url: /files/iodc-2016.pdf
+    title: Download Full Report
   highlight:
     image: iodc-2016-highlight.jpg
     rows: 1

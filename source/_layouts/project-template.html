@@ -4,16 +4,29 @@ layout: default
 {% include master-header.html %}
 <main role="main"> <!-- main content starts here -->
   <article class="portfolio">
-    <header class="portfolio__header" style="background-image: url(/images/{{page.client | slugify }}/{{ page.highlight.image }})">
-      <div class="portfolio__basic-info">
-        <h1 class="portfolio__title"><em>{{page.title}}</em></h1>
-        {% if page.description %}
-        <p class="portfolio__description">{{page.description}}</p>  
-        {% endif %}
-      </div>
+    <aside class="portfolio__basic-info">
+      <h1 class="portfolio__title">{{page.title}}</h1>
+      {% if page.description %}
+      <p class="portfolio__description">{{page.description}}</p>  
+      {% endif %}
       
-    </header>
-    
+      {% if page.project_link.url and page.project_link.title %}
+      <div>
+        <a href="{{page.project_link.url}}" class="button" title="{{page.project_link.title}}">{{page.project_link.title}}</a>
+      </div>
+      {% endif %}
+
+
+      {% if page.tags %}
+      <div class="tags">
+        <h4>Tags</h4>
+        {% for tag in page.tags %}
+        <em>{{tag}}</em>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </aside>
     
     <section class="portfolio__main">
       <figure class="portfolio__image">
@@ -30,5 +43,3 @@ layout: default
     </section>
   </article>
 </main>
-
-
