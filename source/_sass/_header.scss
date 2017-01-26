@@ -10,7 +10,7 @@
     font-size: 1rem;
     font-weight: 400;
     transition: all .4s ease;
-    float: right;
+    margin-left: -5px;
 
     &:hover { 
       background-color: rgba($main-color, 1); 

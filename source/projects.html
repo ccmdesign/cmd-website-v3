@@ -1,0 +1,17 @@
+---
+layout: default
+title: CCM Design Inc.
+---
+
+{% include master-header.html class="js-scrolled" %}
+
+<main role="main" class=""> <!-- main content starts here -->
+  <div class="wrapper project-list">
+    {% for item in site.data.portfolio %}
+    <div class="grid__item project-card {% for tag in item.tags %}tag-{{ tag }} {% endfor %}">
+      <a href="/{{item.title | slugify}}.html" class="card grid__inner" style="background-image: url(images/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
+    </div>
+    {% endfor %}
+  </div>
+</main>
+

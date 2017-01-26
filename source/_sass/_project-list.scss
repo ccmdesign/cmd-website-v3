@@ -1,0 +1,15 @@
+.project-list {
+  padding-top: 80px;
+  display: flex;
+  max-width: 80%;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  flex: 0 0 25%;
+
+  > a {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
