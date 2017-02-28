@@ -1,15 +1,37 @@
 .project-list {
-  padding-top: 80px;
+  padding-top: 30px;
   display: flex;
-  max-width: 80%;
   flex-wrap: wrap;
 }
 
 .project-card {
-  flex: 0 0 25%;
+  flex: 0 0 20%;
 
   > a {
     background-size: cover;
     background-repeat: no-repeat;
+  }
+}
+
+.filters {
+  margin-top: 80px;
+  text-align: center;
+
+  .filter {
+    display: inline-block;
+    border: 0;
+    color: rgba(black, .4);
+  }
+
+  .filter--active {
+    border: 1px solid $green;
+    color: $green;
+  } 
+}
+
+.filterable-grid {
+
+  &-item {
+    width: 20%;
   }
 }

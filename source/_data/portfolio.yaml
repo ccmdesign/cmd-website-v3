@@ -1,13 +1,16 @@
 - title: OGRX
   client: Govlab
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptas ipsa explicabo. In eligendi voluptate quibusdam ullam enim eos amet quos officiis optio accusamus. Perferendis provident laboriosam, at ullam aperiam?
+  description: > 
+    A Central Repository for Research Articles on Open Government. This project was developed in a partnership between The GovLab, MySociety and WorldBank.
   highlight:
     image: ogrx-highlight.jpg
     rows: 1
     cols: 1
   tags:
-    - website
-  main_image: ogrx-01.jpg
+    - interface
+  project_link:
+    url: http://ogrx.org/
+    title: Website
   related-images:
     - ogrx-02.jpg
     - ogrx-03.jpg
@@ -15,25 +18,34 @@
 
 - title: Data Collaboratives
   client: Govlab
+  description: >
+    Website created to serve as a central repository for the Data Collaboratives project. Project developed in partnership with The GovLab, Unicef and Omidyar Network.
   highlight:
     image: data-collaboratives-highlight.jpg
     rows: 2
     cols: 2
   tags:
-    - website
-  main_image: data-collaboratives-highlight.jpg
+    - interface
+  project_link:
+    url: http://datacollaboratives.org/
+    title: Website
   related-images:
 
 - title: Open Data Impact
   client: Govlab
+  description: >
+    Website created to host several case studies on the impact of open data in the world. Project developed in partnership with The GovLab and Omidyar Network.
   highlight:
     image: open-data-impact-highlight.jpg
     rows: 1
     cols: 1
   tags:
-    - website
-  main_image: open-data-impact-index.jpg
+    - interface
+  project_link:
+    url: http://odimpact.org/
+    title: Website
   related-images:
+    - open-data-impact-index.jpg
     - open-data-impact-index-2.jpg
     - open-data-impact-case.jpg
 
@@ -44,12 +56,15 @@
     rows: 1
     cols: 1
   tags:
-    - website
-  main_image: od500-concept.jpg
-  related-images:
+    - branding
+    - logo
+  description: >
+    Concept logo created for the OD500 project. 
 
 - title: Data Analytics for Procurement
   client: WorldBank
+  description: >
+    Branding project for the Data Analytics for Procurement project at teh Worldbank. This is part of a large ongoing project, including webapps and reports. Project developed in partnership with the Worldbank.
   highlight:
     image: data-analytics-for-procurement-logo.jpg
     rows: 1
@@ -57,18 +72,18 @@
   tags:
     - logo
     - branding
-  main_image: data-analytics-for-procurement-logo.jpg
   related-images:
 
 - title: Seed of Change
   client: seed-of-change
+  description: >
+    Book designed to compile the work of the Brazilian 70's artist Marcos Mendonça. The main theme of his art work was the destruction of the environment in his birth city of Belo Horizonte.
   highlight:
     image: book-cover.jpg
     rows: 1
     cols: 1
   tags:
-    - book
-  main_image: book-cover.jpg
+    - editorial
   related-images:
     - book-side.jpg
     - book-side-2.jpg
@@ -92,31 +107,47 @@
 
 - title: Open Contracting
   client: WorldBank
+  description: >
+    Branding for the Open Contracting project. When this project was created, the Open Contracting initiative was still incubated at the Worldbank. Nowadays, it span off to become an independent institution. Project developed in partnership with the Worldbank.
   highlight: 
     image: open-contracting-logo-highlight.jpg
     rows: 1
     cols: 1
   tags:
     - logo
-    - branding
-  main_image: open-contracting-logo-highlight.jpg
   related-images:
 
 - title: IODC 2015 Report
   client: IDRC
+  description: >
+    Creative Direction and Typesetting of the report summarizing the results of the 2015 International Open Data Conference in Ottawa. Project developed in partnership with IDRC and OD4D.
   highlight: 
     image: iodc-2015-report-highlight.jpg
     rows: 1
     cols: 1
   tags:
-    - report
-    - branding
-  main_image: iodc-2015-report-highlight.jpg
+    - editorial
+  project_link:
+    url: /files/iodc-2015.pdf
+    title: Download Full Report
+  related-images:
+
+- title: ODAMoz
+  client: Worldbank
+  description: >
+    Creative Direction and Typesetting of the report summarizing the ODA - Mozambique.
+  highlight: 
+    image: mockup-mozambique.png
+    rows: 1
+    cols: 1
+  tags:
+    - editorial
   related-images:
 
 - title: IODC 2016 Report
   client: IDRC
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione, quae, sint quibusdam veritatis dolore. Suscipit, nisi laudantium labore debitis eligendi vero aut veniam maiores repellendus, voluptates sint porro in.
+  description: >
+    Creative Direction and Typesetting of the report summarizing the results of the 2016 International Open Data Conference in Madrid. Project developed in partnership with IDRC and OD4D.
   project_link:
     url: /files/iodc-2016.pdf
     title: Download Full Report
@@ -125,9 +156,7 @@
     rows: 1
     cols: 1
   tags:
-    - report
-    - branding
-  main_image: iodc-2016-highlight.jpg
+    - editorial
   related-images:
 
 - title: Resilient Cities Report
@@ -137,21 +166,31 @@
     rows: 1
     cols: 1
   tags:
-    - report
-    - branding
-  main_image: resilient-cities-highlight.jpg
+    - editorial
+  description: >
+    Creative Direction and Typesetting of the report summarizing the findings of the Resilient Cities Research. Project developed in partnership with IDRC, OD4D and Open North.
+  related-images:
+
+- title: World Development Report - Background Paper
+  client: WorldBank
+  highlight:
+    image: world-dev-report-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - editorial
+  description: >
+    Creative Direction and Typesetting of the background paper summarizing the findings of the "When does ICT-enabled citizen voice lead to government responsiveness?" research made by Tiago Peixoto and Jonathan Fox.
   related-images:
 
 - title: Baskerville
-  client: More Projects
+  client: Misc
   highlight:
     image: baskerville-highlight.jpg
     rows: 1
     cols: 1
   tags:
     - editorial
-    - branding
-  main_image: baskerville-highlight.jpg
   related-images:
 
 - title: Digital Engagement Book
@@ -162,8 +201,6 @@
     cols: 1
   tags:
     - editorial
-    - branding
-  main_image: evaluating-digital-citizen-engagement.jpg
   related-images:
 
 - title: Digital Engagement Logo
@@ -175,7 +212,8 @@
   tags:
     - logo
     - branding
-  main_image: digital-engagement-logo-highlight.jpg
+  description: >
+    Branding for the Digital Engagement project at the Worldbank. Project developed in partnership with the Worldbank.
   related-images:
 
 - title: OD4D Annual Report
@@ -186,11 +224,11 @@
     cols: 1
   tags:
     - editorial
-    - branding
-  main_image: od4d-annual-report-2015-highlight.jpg
+  description: >
+    Creative Direction and Typesetting of the annual report of the OD4D initiative. Project developed in partnership with IDRC and OD4D.
   related-images:
 
-- title: Smarter Crowdsourcing - Zika
+- title: Smarter Crowdsourcing Zika
   client: Govlab
   highlight:
     image: zika-logo.jpg
@@ -199,7 +237,8 @@
   tags:
     - logo
     - branding
-  main_image: zika-logo.jpg
+  description: >
+    Branding for the Smarter Crowdsourcing project at the Govlab. Project developed in partnership with the Govlab and IADB.
   related-images:
 
 - title: Open Data Catalogs Report
@@ -209,9 +248,9 @@
     rows: 1
     cols: 1
   tags:
-    - report
-    - branding
-  main_image: open-data-catalogs-highlight.jpg
+    - editorial
+  description: >
+    Creative Direction and Typesetting of the report summarizing and listing the main Open Data Catalogs. Project developed in partnership with Open North.
   related-images:
 
 - title: Open Data Standards Report
@@ -221,13 +260,15 @@
     rows: 1
     cols: 1
   tags:
-    - report
-    - branding
-  main_image: open-data-standards-highlight.jpg
+    - editorial
+  description: >
+    Creative Direction and Typesetting of the report summarizing the findings on Open Data Standards. Project developed in partnership with Open North.
   related-images:
 
 - title: Network of Innovators Logo
   client: Govlab
+  description: >
+    Branding created for the Network of Innovators project at The Govlab. This project is the main product of Beth Noveck's "Smarter Government" theory. Developed in partnership with the GovLab.
   highlight:
     image: noi-logo.jpg
     rows: 1
@@ -235,11 +276,12 @@
   tags:
     - logo
     - branding
-  main_image: noi-logo.jpg
   related-images:
 
 - title: ICT4Gov Logo
   client: WorldBank
+  description: >
+    Logo designed for the Information and Communication Technologies for Government project at the Worldbank. Project Developed in partnership with the WorldBank. 
   highlight:
     image: ict4gov-logo-highlight.jpg
     rows: 1
@@ -247,11 +289,12 @@
   tags:
     - logo
     - branding
-  main_image: ict4gov-logo-highlight.jpg
   related-images:
 
 - title: Karnataka Dashboard
   client: WorldBank
+  description: >
+    Mockup of a dashboard designed for an open data portal for the Karnataka Municipaliyt in India. Project Developed in partnership with the WorldBank. 
   highlight:
     image: karnataka-mockup-highlight.png
     rows: 1
@@ -259,11 +302,15 @@
   tags:
     - interface
     - frontend
-  main_image: karnataka-mockup-highlight.png
   related-images:
 
 - title: Collectivites Locales
   client: WorldBank
+  featured:
+    - url: http://www.worldbank.org/en/news/feature/2017/01/27/in-tunisia-user-experience-and-video-game-design-drive-transparency-efforts?123
+      title: Worldbank 
+  description: >
+    UX consulting on the Open Data portal created for the Government of Tunisia. Project Developed in partnership with the WorldBank. 
   highlight:
     image: collectivites-locales-highlight.png
     rows: 1
@@ -271,11 +318,12 @@
   tags:
     - interface
     - frontend
-  main_image: collectivites-locales-highlight.png
   related-images:
 
-- title: Rio Grande do Norte Mockup
+- title: Rio Grande do Norte Government Mockup
   client: WorldBank
+  description: >
+    Mockup of a dashboard designed for an open data portal for Brazil's Government. Project Developed in partnership with the WorldBank. 
   highlight:
     image: rn-mockup-highlight.png
     rows: 1
@@ -283,11 +331,12 @@
   tags:
     - interface
     - frontend
-  main_image: rn-mockup-highlight.png
   related-images:
 
 - title: Network of Innovators Interface
   client: Govlab
+  description: >
+    Interface designed and developed for the Network of Innovators project at The Govlab. This project is the main product of Beth Noveck's "Smarter Government" theory. Developed in partnership with the GovLab.
   highlight:
     image: noi-highlight.png
     rows: 2
@@ -295,7 +344,9 @@
   tags:
     - interface
     - frontend
-  main_image: noi-highlight.png
+  project_link:
+    url: https://www.networkofinnovators.org/
+    title: WebApp
   related-images:
 
 - title: Collective Intelligence 
@@ -307,18 +358,218 @@
   tags:
     - interface
     - frontend
-  main_image: collective-intelligence-highlight.png
   related-images:
 
 - title: Data Justice Network Logo
   client: Govlab
+  description: >
+    Branding created for the Data Justice Network project at The Govlab. This project is one of the products of Beth Noveck's "Smarter Government" theory. Developed in partnership with the GovLab.
   highlight:
     image: data-justice-logo-highlight.jpg
     rows: 1
     cols: 2
   tags:
+    - logo
+    - branding
+  related-images:
+
+- title: Citizen Budget Website
+  client: Open North
+  description: >
+    Website design and development for the Citizen Budget WebApp. One of the main budget assessment tools in Canada and the US.
+  highlight:
+    image: citizen-budget-website-highlight.jpg
+    rows: 1
+    cols: 1
+  tags:
     - interface
     - frontend
-  main_image: data-justice-logo-highlight.jpg
   related-images:
+
+- title: Open Data 500 Website
+  client: Govlab
+  highlight:
+    image: od500-canada.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: https://canada.opendata500.com
+    title: Website
+  description: >
+    Website and Data Visualization. 
+
+- title: Open Government Impact Website
+  client: WorldBank
+  highlight:
+    image: open-gov-impact-website.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: http://opengovimpact.org/
+    title: Website
+  description: >
+    Website and Data Visualization to showcase the results of "The Impact of Open Government - Mapping the Landscape" research by the WorldBank.
+
+- title: Cybersecurity Infographic
+  client: Bernstein
+  highlight:
+    image: cyber-security-5-mockup.png
+    rows: 1
+    cols: 1
+  tags:
+    - infographic
+  description: >
+    Infographic designed for Bernstein to explain the process of what to do if you get hacked.
+
+- title: Divorce Infographic
+  client: Bernstein
+  highlight:
+    image: divorce-2-mockup.png
+    rows: 1
+    cols: 1
+  tags:
+    - infographic
+  description: >
+    Infographic designed for Bernstein to explain the process of what to do with your finacial assets if you get divorced.
+
+- title: GovLab Website
+  client: Govlab
+  highlight:
+    image: govlab-website-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: http://www.thegovlab.org/
+    title: Website
+  description: >
+    Website for the GovLab at NYU
+
+- title: Jeff Ross Website
+  client: Jeff Ross
+  highlight:
+    image: jeff-ross-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: http://roastmastergeneral.com/
+    title: Website
+  description: >
+    Website for the comedian Jeff Ross
+
+- title: Air Magazine Logo
+  client: Misc
+  highlight:
+    image: air-magazine-logo.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for Experimental Fashion Magazine
+
+- title: Jot4 Logo
+  client: Misc
+  highlight:
+    image: j4-logo-1.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for journalism company in Brasilia, Brazil.
+
+- title: Rede de Mobilização Social Logo
+  client: Misc
+  highlight:
+    image: rede-mobilizacao-social-logo.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for a social mobilization company in Brasilia, Brazil.
+
+- title: Sarsur Seder Logo
+  client: Misc
+  highlight:
+    image: sarsur-seder-logo.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for a law company in Belo Horizonte, Brazil.
+
+- title: Christoph Sauser Website
+  client: Misc
+  highlight:
+    image: sauserwind-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  description: >
+    Design and Development for Christoph Sauser's website.
+
+- title: Open Gazettes Website
+  client: Open Corporates
+  highlight:
+    image: open-gazettes-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: http://opengazettes.com/
+    title: Website
+  description: >
+    Website for the Open Gazettes project from Open Corporates.
+
+- title: Open Government Logo
+  client: WorldBank
+  highlight:
+    image: open-government-logo.png
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for Open Government Project inside the WorldBank.
+
+
+- title: Procurement Stories Website
+  client: WorldBank
+  highlight:
+    image: procurement-stories-highlight.png
+    rows: 1
+    cols: 1
+  tags:
+    - interface
+    - frontend
+  project_link:
+    url: http://www.transformingprocurement.org/
+    title: Website
+  description: >
+    Website for the Procurement for Development Website.
+
+
 

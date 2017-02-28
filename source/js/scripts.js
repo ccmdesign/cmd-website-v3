@@ -36,18 +36,41 @@ $(document).ready(function () {
     });
 
     $('.js-open-modal').click(function () {
-        if ($('.js-target-modal').hasClass('js-active')) {
-          $('.js-target-modal').removeClass('js-active');
-          $('#overlay').removeClass('js-active');
-          $('body').removeClass('js-body-modal-active');
-        } else {
-          $('.js-target-modal').addClass('js-active');
-          $('#overlay').addClass('js-active');
-          $('body').addClass('js-body-modal-active');
-        }
-
-        
+      if ($('.js-target-modal').hasClass('js-active')) {
+        $('.js-target-modal').removeClass('js-active');
+        $('#overlay').removeClass('js-active');
+        $('body').removeClass('js-body-modal-active');
+      } else {
+        $('.js-target-modal').addClass('js-active');
+        $('#overlay').addClass('js-active');
+        $('body').addClass('js-body-modal-active');
+      }
     });
+
+    // Slider
+    // $('.slider').slick({
+    //     arrows: true,
+    //     draggable: false,
+    //     autoplay: true,
+    //     autoplaySpeed: 3000
+    // });
+
+    var $grid = $('.filterable-grid');
+    $grid.isotope({
+      // options
+      itemSelector: '.filterable-grid-item'
+    });
+
+
+
+    $(".filter").click(function() {
+      var $this = $(this);
+      var filter_type = $this.attr('data-filter');
+      $grid.isotope({ filter: filter_type });
+      $('.filter').removeClass('filter--active');
+      $this.addClass('filter--active');
+    });
+       
 
 
     // Modal Click Behavior
@@ -87,20 +110,5 @@ $(document).ready(function () {
     //     $('.js-active-menu').removeClass('js-active-menu');
     // });
 
-    // // Slider
-    // $('.slider').slick({
-    //     arrows: true,
-    //     draggable: false,
-    //     swipeToSlide: true,
-    //     autoplay: true,
-    //     autoplaySpeed: 3000,
-    //     responsive: [
-    //         {
-    //             breakpoint: 800,
-    //             settings: {
-    //                 draggable: true
-    //             }
-    //         }
-    //     ]
-    // });
+    
 }); // doc.ready

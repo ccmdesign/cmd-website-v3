@@ -1,0 +1,38 @@
+# - name: Claudio Mendonca
+#   job: Creative Director | Partner
+#   picture: claudio-profile.jpg
+#   description: >
+#     Creative Director and Entrepreneur, with over a decade of experience designing brand identities, data visualizations, online experiences and digital products, Claudio is a visionary design creator, consultant, experimenter.
+#     After years working on the print design fields, Claudio found himself more and more compelled to work on interactive projects. Working with institutions like the World Bank, Govlab, Pennsylvania University, just to name a few, Claudio is today a specialist in interaction design in the civic tech field. His deep knowledge of branding and visual design makes keeps him “in between” the two fields, working on both types of projects.
+#     Claudio creates an environment where ideas become beautiful realities.
+#     He is currently based in Canada, finding a delicate balance between his passions for mountain biking, rock climbing and his workaholic agenda.
+
+# - name: Juliana Andrade
+#   job: Creative Director | Partner
+#   picture: claudio-profile.jpg
+#   description: >
+
+- name: Augusto Andrade
+  job: Account Director
+  picture: augusto-profile.jpg
+  description: >
+
+- name: Rafael Bicalho
+  job: Full Stack Developer
+  picture: bika-profile.jpg
+  description: >
+
+- name: Antonio Tavares
+  job: Graphic Designer
+  picture: unknown-profile.jpg
+  description: >
+
+- name: Daniel Brasil
+  job: Video Designer and Illustrator
+  picture: daniel-profile.jpg
+  description: >
+
+# - name: Bernardo Ribeiro
+#   job: Technologist
+#   picture: claudio-profile.jpg
+#   description: >

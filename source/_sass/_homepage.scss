@@ -22,6 +22,10 @@
   text-align: right;
 
   p {
+    strong { 
+      color: $green; 
+      font-weight: 400;
+    }
     font-size: .8rem;
     @include breakpoint(min-width 800px) { display: block; }
     @include breakpoint(min-width 945px) { font-size: 1rem; }  

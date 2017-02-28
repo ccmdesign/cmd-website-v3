@@ -3,7 +3,7 @@ layout: default
 ---
 {% include master-header.html %}
 <main role="main"> <!-- main content starts here -->
-  <article class="portfolio">
+  <article class="portfolio wrapper">
     <aside class="portfolio__basic-info">
       <h1 class="portfolio__title">{{page.title}}</h1>
       <h2 class="portfolio__client">{{page.client}}</h2>
@@ -13,10 +13,9 @@ layout: default
       
       {% if page.project_link.url and page.project_link.title %}
       <div>
-        <a href="{{page.project_link.url}}" class="button" title="{{page.project_link.title}}">{{page.project_link.title}}</a>
+        <a href="{{page.project_link.url}}" target="_blank" class="button" title="{{page.project_link.title}}">{{page.project_link.title}}</a>
       </div>
       {% endif %}
-
 
       {% if page.tags %}
       <div class="tags">
@@ -26,21 +25,30 @@ layout: default
         {% endfor %}
       </div>
       {% endif %}
-
     </aside>
     
     <section class="portfolio__main">
-      <figure class="portfolio__image">
-        <img src="/images/{{page.client | slugify }}/{{ page.main_image }}" alt="{{page.title}}">
-      </figure>
-
-    {% if page.related-images %}
-      {% for i in page.related-images %}
-      <figure class="portfolio__image">
-        <img src="/images/{{page.client | slugify }}/{{ i }}" alt="{{page.title}}">
-      </figure>
-      {% endfor %}
+    {% if page.highlight.cols == 2 and page.tags contains 'logo' %}
+    <figure class="portfolio__image portfolio--logo" style="background-image: url(/images/projects/{{page.client | slugify }}/{{ page.highlight.image }});"></figure>
+    {% else %}
+    <figure class="portfolio__image">
+      <img src="/images/projects/{{page.client | slugify }}/{{ page.highlight.image }}" alt="{{page.title}}">
+    </figure>
     {% endif %}
+
+    <!-- {% if page.related-images %}
+      <div class="portfolio__slider">
+        <div class="portfolio__slider-container">
+          <div class="slider">
+            {% for i in page.related-images %}
+            <figure class="portfolio__image">
+              <img src="/images/projects/{{page.client | slugify }}/{{ i }}" alt="{{page.title}}">
+            </figure>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+    {% endif %} -->
     </section>
   </article>
 </main>

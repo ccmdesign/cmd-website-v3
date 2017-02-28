@@ -5,13 +5,22 @@ title: CCM Design Inc.
 
 {% include master-header.html class="js-scrolled" %}
 
-<main role="main" class=""> <!-- main content starts here -->
-  <div class="wrapper project-list">
+<main role="main" class=""> <!-- main content starts here -->    
+  <div class="filters wrapper">
+    <div class="filter button filter--active" data-filter="*" >All</div>
+    <div class="filter button" data-filter=".tag-interface">Interfaces</div>
+    <div class="filter button" data-filter=".tag-branding">Branding</div>
+    <div class="filter button" data-filter=".tag-editorial">Editorial</div>
+    <div class="filter button" data-filter=".tag-infographic">Infographic</div>
+  </div>
+
+  <div class="filterable-grid project-list wrapper">
     {% for item in site.data.portfolio %}
-    <div class="grid__item project-card {% for tag in item.tags %}tag-{{ tag }} {% endfor %}">
-      <a href="/{{item.title | slugify}}.html" class="card grid__inner" style="background-image: url(images/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
+    <div class="filterable-grid-item grid__item {% for tag in item.tags %}tag-{{ tag }} {% endfor %}">
+      <a href="/{{item.title | slugify}}.html" class="grid__inner project-card card" style="background-image: url(images/projects/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
     </div>
     {% endfor %}
   </div>
+  
 </main>
 
