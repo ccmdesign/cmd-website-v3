@@ -12,10 +12,10 @@
 #   picture: claudio-profile.jpg
 #   description: >
 
-# - name: Augusto Andrade
-#   job: Account Director
-#   picture: augusto-profile.jpg
-#   description: >
+- name: Augusto Moura
+  job: Account Director
+  picture: augusto-profile.jpg
+  description: >
 
 - name: Rafael Bicalho
   job: Full Stack Developer

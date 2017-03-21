@@ -5,6 +5,7 @@ layout: default
 <main role="main"> <!-- main content starts here -->
   <article class="portfolio wrapper">
     <aside class="portfolio__basic-info">
+      <a href="./projects.html" class="back-button" title="Back to Portfolio" style="line-height: 3px;"><i class="material-icons">keyboard_arrow_left</i></a>
       <h1 class="portfolio__title">{{page.title}}</h1>
       <h2 class="portfolio__client">{{page.client}}</h2>
       {% if page.description %}
@@ -25,6 +26,7 @@ layout: default
         {% endfor %}
       </div>
       {% endif %}
+
     </aside>
     
     <section class="portfolio__main">

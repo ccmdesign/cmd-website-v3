@@ -118,6 +118,8 @@
 }
 
 .tags {
+  
+
   h4 {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -146,3 +148,10 @@
 
 .slick-next { right: -80px; }
 .slick-prev { left: -80px; }
+
+.back-button {
+  color: rgba($main-color, .8);
+  display: block;
+  margin-bottom: 40px;
+  i { font-size: 3rem; }
+}
