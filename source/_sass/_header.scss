@@ -31,7 +31,7 @@
   transition: all .4s ease;
 
   @include breakpoint($touch) { 
-    display: block; 
+    display: none; 
     opacity: 1;
     pointer-events: none;
     transition: all .4s ease;

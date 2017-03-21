@@ -2,10 +2,16 @@
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
+
+  @include breakpoint($touch) {
+    flex-direction: column;
+  }
 }
 
 .project-card {
   flex: 0 0 20%;
+
+  
 
   > a {
     background-size: cover;
@@ -33,5 +39,8 @@
 
   &-item {
     width: 20%;
+    @include breakpoint($touch) {
+      width: 100%;
+    }
   }
 }

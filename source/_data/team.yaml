@@ -12,20 +12,20 @@
 #   picture: claudio-profile.jpg
 #   description: >
 
-- name: Augusto Andrade
-  job: Account Director
-  picture: augusto-profile.jpg
-  description: >
+# - name: Augusto Andrade
+#   job: Account Director
+#   picture: augusto-profile.jpg
+#   description: >
 
 - name: Rafael Bicalho
   job: Full Stack Developer
   picture: bika-profile.jpg
   description: >
 
-- name: Antonio Tavares
-  job: Graphic Designer
-  picture: unknown-profile.jpg
-  description: >
+# - name: Antonio Tavares
+#   job: Graphic Designer
+#   picture: unknown-profile.jpg
+#   description: >
 
 - name: Daniel Brasil
   job: Video Designer and Illustrator
