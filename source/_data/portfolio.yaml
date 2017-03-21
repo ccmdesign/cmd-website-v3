@@ -167,6 +167,9 @@
     cols: 1
   tags:
     - editorial
+  project_link:
+    url: /files/od4d-resilient-cities.pdf
+    title: Download Paper
   description: >
     Creative Direction and Typesetting of the report summarizing the findings of the Resilient Cities Research. Project developed in partnership with IDRC, OD4D and Open North.
   related-images:
@@ -201,6 +204,9 @@
     cols: 1
   tags:
     - editorial
+  project_link:
+    url: /files/evaluating-digital-citizen-engagement.pdf
+    title: Download Book
   related-images:
 
 - title: Digital Engagement Logo
@@ -224,6 +230,9 @@
     cols: 1
   tags:
     - editorial
+  project_link:
+    url: /files/od4d-annual-report-2015.pdf
+    title: Download Paper
   description: >
     Creative Direction and Typesetting of the annual report of the OD4D initiative. Project developed in partnership with IDRC and OD4D.
   related-images:
@@ -249,6 +258,9 @@
     cols: 1
   tags:
     - editorial
+  project_link:
+    url: /files/opennorth-opendata-report.pdf
+    title: Download Paper
   description: >
     Creative Direction and Typesetting of the report summarizing and listing the main Open Data Catalogs. Project developed in partnership with Open North.
   related-images:
@@ -261,6 +273,9 @@
     cols: 1
   tags:
     - editorial
+  project_link:
+    url: /files/opennorth-standardization-report.pdf
+    title: Download Report
   description: >
     Creative Direction and Typesetting of the report summarizing the findings on Open Data Standards. Project developed in partnership with Open North.
   related-images:
@@ -302,6 +317,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: /files/karnataka-interface-mockup.jpg
+    title: View Mockup
   related-images:
 
 - title: Collectivites Locales
@@ -318,6 +336,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: http://www.collectiviteslocales.gov.tn/
+    title: Website
   related-images:
 
 - title: Rio Grande do Norte Government Mockup
@@ -331,6 +352,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: /files/rio-grande-do-norte-dashboard-mockup.pdf
+    title: View Mockup
   related-images:
 
 - title: Network of Innovators Interface
@@ -358,6 +382,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: http://collectiveintelligenceconference.org/
+    title: Website
   related-images:
 
 - title: Data Justice Network Logo
@@ -384,6 +411,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: http://www.citizenbudget.com/
+    title: Website
   related-images:
 
 - title: Open Data 500 Website
@@ -424,6 +454,9 @@
     cols: 1
   tags:
     - infographic
+  project_link:
+    url: /files/bernstein-cyber-security.pdf
+    title: View Inforgraphic
   description: >
     Infographic designed for Bernstein to explain the process of what to do if you get hacked.
 
@@ -435,6 +468,9 @@
     cols: 1
   tags:
     - infographic
+  project_link:
+    url: /files/bernstein-divorce.pdf
+    title: View Inforgraphic
   description: >
     Infographic designed for Bernstein to explain the process of what to do with your finacial assets if you get divorced.
 
@@ -525,6 +561,9 @@
   tags:
     - interface
     - frontend
+  project_link:
+    url: http://christophsauser.com/
+    title: Website
   description: >
     Design and Development for Christoph Sauser's website.
 
