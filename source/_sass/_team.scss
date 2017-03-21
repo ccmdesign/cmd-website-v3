@@ -45,7 +45,7 @@
     @include breakpoint($touch) {
       margin-top: 30px;
       text-align: left !important;
-      flex: 0;
+      flex: 1;
       order: 2;
     }
 
