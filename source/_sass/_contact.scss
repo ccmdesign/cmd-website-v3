@@ -45,7 +45,8 @@
   }
 }
 
-.contact {
+.contact,
+.briefing {
   margin-top: 80px;
   max-width: 700px;
 
@@ -54,5 +55,21 @@
     font-weight: 300;
     color: $main-color;
     text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+
+  hgroup {
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: rgba(black, .6);
+    margin: 25px 0 5px;
   }
 }
