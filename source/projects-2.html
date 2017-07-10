@@ -1,0 +1,26 @@
+---
+layout: default
+title: CCM Design Inc.
+---
+
+{% include master-header.html class="js-scrolled" %}
+
+<main role="main" class=""> <!-- main content starts here -->    
+  <div class="filters-2 wrapper">
+    <div class="filter button filter--active" data-filter="*" >All</div>
+    <div class="filter button" data-filter=".tag-interface">Interfaces</div>
+    <div class="filter button" data-filter=".tag-branding">Branding</div>
+    <div class="filter button" data-filter=".tag-editorial">Editorial</div>
+    <div class="filter button" data-filter=".tag-infographic">Infographic</div>
+  </div>
+
+  <div class="project-list-2 grid">
+    {% for item in site.data.portfolio %}
+    <div class="grid-item highlight-{{item.highlight.rows}}-{{item.highlight.cols}}">
+      <a href="/{{item.title | slugify}}.html" class="grid-item__inner" style="background-image: url(images/projects/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
+    </div>
+    {% endfor %}
+  </div>
+  
+</main>
+
