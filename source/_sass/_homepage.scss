@@ -5,16 +5,64 @@
 }
 
 .main-logo { 
-  opacity: .6;
-  padding: 150px 20px 100px;
-  @include breakpoint($large) { 
-    padding-left: 120px; 
-    padding-right: 120px; 
+  text-align:  center;
+  width: 100%;
+
+  img {
+    max-height: 8vh;
+    @include breakpoint($small-only) { max-width: 80vw; }
+    opacity: .6;
+    background-blend-mode: multiply;
   }
-  max-width: 900px;
-  margin: 0 auto;
 
 }
+
+.container {
+  margin-top: 100vh;
+  padding-top: 220px;
+  background-color: white;
+}
+
+.hero-panel {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 80px;
+
+  &__bg,
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  &__content {
+    padding: 32vh 0;
+    background-color: rgba(255,255,255,0.92);
+  }
+
+  &__bg {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.js-hero-1 { background-image: url('../images/hero/andrew-welch-155220.jpg'); }
+.js-hero-2 { background-image: url('../images/hero/breather-187939.jpg'); }
+.js-hero-3 { background-image: url('../images/hero/damian-zaleski-843.jpg'); }
+.js-hero-4 { background-image: url('../images/hero/jeff-sheldon-3228.jpg'); }
+.js-hero-5 { background-image: url('../images/hero/josefa-ndiaz-312261.jpg'); }
+.js-hero-6 { background-image: url('../images/hero/kelly-sikkema-291518.jpg'); }
+.js-hero-7 { background-image: url('../images/hero/markus-spiske-104910.jpg'); }
+.js-hero-8 { background-image: url('../images/hero/nirzar-pangarkar-85499.jpg'); }
+.js-hero-9 { background-image: url('../images/hero/rawpixel-com-203888.jpg'); }
+.js-hero-0 { background-image: url('../images/hero/william-iven-19843.jpg'); }
+
 
 .company-description {
   margin: 0 5px;

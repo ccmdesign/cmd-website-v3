@@ -11,8 +11,6 @@
 .project-card {
   flex: 0 0 20%;
 
-  
-
   > a {
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +20,7 @@
 .filters {
   margin-top: 80px;
   text-align: center;
+
 
   .filter {
     display: inline-block;
@@ -33,6 +32,10 @@
     border: 1px solid $green;
     color: $green;
   } 
+
+  .filter--spacer {
+    width: 80px;
+  }
 }
 
 .filterable-grid {

@@ -1,0 +1,35 @@
+- title: Air Magazine Logo
+  client: Misc
+  highlight:
+    image: air-magazine-logo.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for Experimental Fashion Magazine
+
+- title: Jot4 Logo
+  client: Misc
+  highlight:
+    image: j4-logo-1.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for journalism company in Brasilia, Brazil.
+
+- title: Sarsur Seder Logo
+  client: Misc
+  highlight:
+    image: sarsur-seder-logo.jpg
+    rows: 1
+    cols: 1
+  tags:
+    - logo
+    - branding
+  description: >
+    Logo for a law company in Belo Horizonte, Brazil.

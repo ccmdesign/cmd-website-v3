@@ -70,7 +70,16 @@ $(document).ready(function () {
       $('.filter').removeClass('filter--active');
       $this.addClass('filter--active');
     });
-       
+    
+    
+    var hero_n = Math.floor(Math.random() * 10);
+
+    $('.js-hero-bg').addClass('js-hero-' + hero_n);
+
+    
+
+    
+    
 
 
     // Modal Click Behavior

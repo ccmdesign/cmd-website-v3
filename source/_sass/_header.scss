@@ -1,6 +1,7 @@
 .main-nav {
   text-align: right;
 
+
   &__item {
     padding: 14px 23px;
     display: inline-block;
@@ -21,7 +22,11 @@
 }
 
 .master-header {
-  background-color: rgba(white, .8);
+  
+  &.js-scrolled { 
+    background-color: rgba(white, .8); 
+  }
+
   position: fixed;
   z-index: 1000;
   top: 0;
