@@ -36,7 +36,14 @@ main {
   margin-top: 50px;
 }
 
+p > a {
+  text-decoration: none;
+  color: $main-color;
 
+  &:hover {
+    background-color: rgba($main-color, .1);
+  }
+}
 
 
 
