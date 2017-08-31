@@ -51,6 +51,40 @@
     background-position: center;
     background-size: cover;
   }
+
+  &__scroll {
+    text-align: center;
+
+    i { 
+      font-size: 3rem; 
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      opacity: .3;
+      position: absolute;
+      
+      background-blend-mode: multiply;
+      background-color: $main-color;
+      animation: pulse 3s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes pulse {
+  from {
+    opacity: .6;
+    bottom: 30px;
+  }
+
+  50% {
+    opacity: .2;
+    bottom: -10px;
+  }
+
+  to {
+    opacity: .6;
+    bottom: 30px;
+  }
 }
 
 .js-hero-1 { background-image: url('../images/hero/andrew-welch-155220.jpg'); }
