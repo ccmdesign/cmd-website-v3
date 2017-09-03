@@ -34,7 +34,6 @@ gulp.task('push-gh-pages', function () {
 
 gulp.task('deploy', function (callback) {
   runSequence(
-    'image',
     'push-gh-master',
     'push-gh-pages',
     callback
