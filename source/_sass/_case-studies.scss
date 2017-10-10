@@ -1,0 +1,202 @@
+.case-study {
+
+}
+
+.case-intro {
+  margin-top: 70px;
+
+  .wrapper { 
+    border-top: 1px solid rgba(0,0,0,0.1); 
+    padding: 20px 0 40px;
+  }
+
+  &__top-row {
+    margin-bottom: 20px;    
+  }
+
+  h3, h4, p { 
+    margin: 0;
+    padding: 0;
+  }
+  
+  h3, h4 { 
+    font-weight: 600; 
+    font-size: 1.1rem;
+    color: $main-color;
+  }
+
+  h3 { text-transform: uppercase; }
+  h4 { text-align: right; }
+
+  p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    opacity: .7;
+  }
+}
+
+.case-hero {
+  padding: 100px 0 60px;
+
+  &__main-image {
+    margin-bottom: 40px;
+  }
+
+  &__blurb {
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5;
+    opacity: .5;
+    letter-spacing: .6px;
+  }
+}
+
+.case-section {
+  padding: 80px 0;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: $main-color;
+  }
+
+  p {
+    color: rgba(black, .6);
+  }
+
+  &--align-right {
+    text-align: right;
+  }
+
+  &--dark {
+    background-color: #333;
+    p { color: rgba(white, .6); }
+  }
+
+  &--light {
+    background-color: rgba(black, .05);
+    p { color: rgba(black, .6); }
+  }
+
+  &--centered {
+    text-align: center;
+
+    p {
+      font-size: 1.7rem;
+    }
+  }
+
+  &--gallery {
+    
+  }
+}
+
+.computer-mockup {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  position: relative;
+
+  &__frame { margin-top: -18%; }
+  &__content {
+    position: absolute;
+    top: 13%;
+    left: 14.2%;
+    width: 71%;
+    height: 68%;
+    overflow: hidden;
+
+    > * {
+      height: 100%;
+      margin-left: -3%
+    }
+  }
+
+}
+
+.case-quote {
+  &__picture {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  &__text { 
+    font-size: 1.7rem; 
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    left: -15px;
+    top: -60px;
+    font-size: 4rem !important;
+    color: $main-color;
+  }
+
+  &__author { 
+    font-size: 1.4rem; 
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  &__title { 
+    font-size: 1.2rem; 
+    margin: 0;
+  }
+}
+
+.case-gallery {
+  &__item {
+    img { border: 2px solid white; }
+  }
+}
+
+.case-study---smarter-crowdsourcing {
+  .case-hero {
+    background-color: #2c4758;
+    color: white;
+  }
+
+  .logo-animation-wrapper {
+    padding: 0;
+    
+  }
+
+  .project-sublogos {
+    margin: 60px 0;
+    max-width: 80%;
+  }
+}
+
+#smarter-crowdsourcing-logo-animation {
+  .project-logo--future {
+    fill:#D5DADE;
+    opacity: 0;
+  }
+  .project-logo--present {fill: #2C4758;}
+
+  .project-logo--future { 
+    animation-name: fade-in; 
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+  }
+  
+  .project-logo--01 { animation-delay: 0; }
+  .project-logo--02 { animation-delay: 1s; }
+  .project-logo--03 { animation-delay: 2s; }
+  .project-logo--04 { animation-delay: 3s; }
+  .project-logo--05 { animation-delay: 4s; }
+  .project-logo--06 { animation-delay: 5s; }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  50% { opacity: 1; }
+  60% {opacity: 0; }
+  100% { opacity: 0; }
+}
