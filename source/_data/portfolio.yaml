@@ -22,14 +22,26 @@
     Website created to serve as a central repository for the Data Collaboratives project. Project developed in partnership with The GovLab, Unicef and Omidyar Network.
   highlight:
     image: data-collaboratives-highlight.jpg
-    rows: 2
-    cols: 2
+    rows: 1
+    cols: 1
   tags:
     - interface
   project_link:
     url: http://datacollaboratives.org/
     title: Website
   related-images:
+
+- title: Smarter Crowdsourcing Branding
+  client: Govlab
+  special_url: case-smarter-crowdsourcing.html
+    
+  highlight:
+    image: smarter-crowdsourcing-branding.png
+    rows: 2
+    cols: 2
+  tags:
+    - branding
+  
 
 - title: Open Data Impact
   client: Govlab
