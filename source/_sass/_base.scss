@@ -44,6 +44,25 @@ p > a {
   }
 }
 
+.toast-message {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  display: none;
+
+  &.toast-success {
+    background: #00bec0;
+  }
+
+  &.toast-error {
+    background: #990000;
+  }
+}
 
 
 

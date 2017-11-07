@@ -1,4 +1,47 @@
 $(document).ready(function () {
+    // Contact form submission
+    $('#js-contact-form').submit(function() {
+        var onSuccess = function(data, status) {
+            $('#js-contact-success').fadeIn(500);
+            $('.contact input').val('');
+            $('.contact textarea').val('');
+            $('#js-contact-form-btn').val('Send').removeClass('disabled');
+
+            setTimeout(function() {
+                $('#js-contact-success').fadeOut(1000);
+            }, 4000);
+        }
+
+        var onError = function(xhr, status, error) {
+            $('#js-contact-error').fadeIn(500);
+            $('#js-contact-form-btn').val('Send').removeClass('disabled');
+
+            setTimeout(function() {
+                $('#js-contact-error').fadeOut(1000);
+            }, 4000);
+        }
+
+        if (!$('#js-contact-form-btn').hasClass('disabled')) {
+            var data = {};
+            $('#js-contact-form-btn').val('Sending…').addClass('disabled');
+
+            $(this).serializeArray().map(function(x) {
+                return data[x.name] = x.value;
+            });
+
+            $.ajax({
+                url: "https://formspree.io/claudio@claudiomendonca.com",
+                method: "POST",
+                data: data,
+                dataType: "json",
+                success: onSuccess,
+                error: onError
+            });
+        }
+
+        return false;
+    });
+
     // Smooth Scrolling Function
     $('a[href*=#]:not([href=#])').click(function () {
         var $targ = $(this.hash),
@@ -70,16 +113,16 @@ $(document).ready(function () {
       $('.filter').removeClass('filter--active');
       $this.addClass('filter--active');
     });
-    
-    
+
+
     var hero_n = Math.floor(Math.random() * 10);
 
     $('.js-hero-bg').addClass('js-hero-' + hero_n);
 
-    
 
-    
-    
+
+
+
 
 
     // Modal Click Behavior
@@ -119,5 +162,5 @@ $(document).ready(function () {
     //     $('.js-active-menu').removeClass('js-active-menu');
     // });
 
-    
+
 }); // doc.ready
