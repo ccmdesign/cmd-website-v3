@@ -24,7 +24,7 @@
 .master-header {
   
   &.js-scrolled { 
-    background-color: rgba(white, .8); 
+    background-color: rgba(white, .9); 
   }
 
   position: fixed;
@@ -114,7 +114,7 @@
   bottom: 0;
   opacity: 1;
   transition: all .4s ease;
-  background-color: rgba(white, .9);
+  background-color: rgba(white, 1);
 
   .master-header__content {
     width: 100%;
