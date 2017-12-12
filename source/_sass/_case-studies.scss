@@ -27,7 +27,14 @@
   }
 
   h3 { text-transform: uppercase; }
-  h4 { text-align: right; }
+  h4,
+  h5 { text-align: right; }
+
+  h5 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: rgba(black, .3);
+  }
 
   p {
     font-weight: 300;
@@ -51,6 +58,43 @@
     opacity: .5;
     letter-spacing: .6px;
   }
+}
+
+.featured-in {
+  margin: 10px 0;
+  padding: 0;
+  text-align: right;
+
+  h5 {
+    margin: 10px 0;
+  }
+
+  img {
+    max-height: 40px;
+    opacity: .1;
+    filter: grayscale(100%);
+    transition: all .4s ease;
+
+    &:hover {
+      opacity: 1;
+      filter: grayscale(0);
+    }
+  }
+
+
+  li, a {
+    display: inline-block;
+  }
+
+  li {
+    list-style: none;
+    margin: 0 0 0 40px;
+    padding: 0;
+    max-height: 50px;
+    max-width: 180px;
+  }
+
+
 }
 
 .case-section {
