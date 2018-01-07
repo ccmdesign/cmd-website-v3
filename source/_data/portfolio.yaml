@@ -1,6 +1,6 @@
 - title: OGRX
   client: Govlab
-  description: > 
+  description: >
     A Central Repository for Research Articles on Open Government. This project was developed in a partnership between The GovLab, MySociety and WorldBank.
   highlight:
     image: ogrx-highlight.jpg
@@ -34,7 +34,7 @@
 - title: Smarter Crowdsourcing Branding
   client: Govlab
   special_url: case-smarter-crowdsourcing.html
-    
+
   highlight:
     image: smarter-crowdsourcing-branding.png
     rows: 2
@@ -45,14 +45,24 @@
 - title: Cyber Hygiene Guide
   client: Facebook
   special_url: case-facebook-report.html
-    
+
   highlight:
     image: facebook-mockup-1.jpg
     rows: 2
     cols: 2
   tags:
     - branding
-  
+
+- title: Blockchain
+  client: IDRC
+  special_url: case-blockchain-report.html
+
+  highlight:
+    image: blockchain-cover.jpg
+    rows: 2
+    cols: 2
+  tags:
+    - branding
 
 - title: Open Data Impact
   client: Govlab
@@ -82,7 +92,7 @@
     - branding
     - logo
   description: >
-    Concept logo created for the OD500 project. 
+    Concept logo created for the OD500 project.
 
 - title: Data Analytics for Procurement
   client: WorldBank
@@ -132,7 +142,7 @@
   client: WorldBank
   description: >
     Branding for the Open Contracting project. When this project was created, the Open Contracting initiative was still incubated at the Worldbank. Nowadays, it span off to become an independent institution. Project developed in partnership with the Worldbank.
-  highlight: 
+  highlight:
     image: open-contracting-logo-highlight.jpg
     rows: 1
     cols: 1
@@ -144,7 +154,7 @@
   client: IDRC
   description: >
     Creative Direction and Typesetting of the report summarizing the results of the 2015 International Open Data Conference in Ottawa. Project developed in partnership with IDRC and OD4D.
-  highlight: 
+  highlight:
     image: iodc-2015-report-highlight.jpg
     rows: 1
     cols: 1
@@ -159,7 +169,7 @@
   client: Worldbank
   description: >
     Creative Direction and Typesetting of the report summarizing the ODA - Mozambique.
-  highlight: 
+  highlight:
     image: mozambique-report.png
     rows: 1
     cols: 1
@@ -399,7 +409,7 @@
 - title: ICT4Gov Logo
   client: WorldBank
   description: >
-    Logo designed for the Information and Communication Technologies for Government project at the Worldbank. Project Developed in partnership with the WorldBank. 
+    Logo designed for the Information and Communication Technologies for Government project at the Worldbank. Project Developed in partnership with the WorldBank.
   highlight:
     image: ict4gov-logo-highlight.jpg
     rows: 1
@@ -412,7 +422,7 @@
 - title: Karnataka Dashboard
   client: WorldBank
   description: >
-    Mockup of a dashboard designed for an open data portal for the Karnataka Municipaliyt in India. Project Developed in partnership with the WorldBank. 
+    Mockup of a dashboard designed for an open data portal for the Karnataka Municipaliyt in India. Project Developed in partnership with the WorldBank.
   highlight:
     image: karnataka-mockup-highlight.png
     rows: 1
@@ -429,9 +439,9 @@
   client: WorldBank
   featured:
     - url: http://www.worldbank.org/en/news/feature/2017/01/27/in-tunisia-user-experience-and-video-game-design-drive-transparency-efforts?123
-      title: Worldbank 
+      title: Worldbank
   description: >
-    UX consulting on the Open Data portal created for the Government of Tunisia. Project Developed in partnership with the WorldBank. 
+    UX consulting on the Open Data portal created for the Government of Tunisia. Project Developed in partnership with the WorldBank.
   highlight:
     image: collectivites-locales-highlight.png
     rows: 1
@@ -447,7 +457,7 @@
 - title: Rio Grande do Norte Government Mockup
   client: WorldBank
   description: >
-    Mockup of a dashboard designed for an open data portal for Brazil's Government. Project Developed in partnership with the WorldBank. 
+    Mockup of a dashboard designed for an open data portal for Brazil's Government. Project Developed in partnership with the WorldBank.
   highlight:
     image: rn-mockup-highlight.png
     rows: 1
@@ -476,7 +486,7 @@
     title: WebApp
   related-images:
 
-- title: Collective Intelligence 
+- title: Collective Intelligence
   client: Govlab
   highlight:
     image: collective-intelligence-highlight.png
@@ -532,7 +542,7 @@
     url: https://canada.opendata500.com
     title: Website
   description: >
-    Website and Data Visualization. 
+    Website and Data Visualization.
 
 - title: Open Government Impact Website
   client: WorldBank
