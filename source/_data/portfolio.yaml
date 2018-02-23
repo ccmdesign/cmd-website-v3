@@ -709,8 +709,14 @@
   description: >
     Creative direction and design of the Transparency and Accountability Tax Graph. Project developed in partnership with the Transparency and Accountability Initiative.
 
-
-
-
-
-
+- title: Facebook Annual Report - Portfolio Page
+  client: Facebook
+  special_url: case-facebook-annualreport.html
+  description: >
+    Showcase their accomplishments over the year of 2017.
+  highlight:
+    image: facebook-annualreport-1.jpg
+    rows: 2
+    cols: 2
+  tags:
+    - branding
