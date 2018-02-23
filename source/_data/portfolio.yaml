@@ -720,3 +720,15 @@
     cols: 2
   tags:
     - branding
+
+- title: Bertelsmann Report - Portfolio Page
+  client: Govlab
+  special_url: case-bertelsmann-report.html
+  description: >
+     Showcase the findings on People-led Innovations research.
+  highlight:
+    image: bertelsmann-1.jpg
+    rows: 2
+    cols: 2
+  tags:
+    - branding
