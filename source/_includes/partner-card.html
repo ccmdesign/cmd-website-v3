@@ -1,5 +1,0 @@
-{% assign item = site.data.team | where:"name", include.item  | first %}
-<td class="grid__item highlight-card {% for tag in item.tags %}tag-{{ tag }} {% endfor %}" rowspan={{item.highlight.rows}} colspan={{item.highlight.cols}}>
-  <a href="/{{item.title | slugify}}.html" class="card grid__inner" style="background-image: url(images/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}">
-  </a>
-</td>
