@@ -21,8 +21,8 @@ title: CCM Design Inc.
 
   <div class="filterable-grid project-list wrapper">
     {% for item in site.data.portfolio %}
-    <div class="filterable-grid-item grid__item {% for tag in item.tags %}tag-{{ tag }} {% endfor %} client-{{item.client | slugify}}">
-      <a href="{% if item.special_url %}{{item.special_url}}{% else %}/{{item.title | slugify}}.html{% endif %}" class="grid__inner project-card card" style="background-image: url(images/projects/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
+    <div class="filterable-grid-item grid__item {% for tag in item.tags %}tag-{{ tag }} {% endfor %} client-{{item.client | downcase | slugify}}">
+      <a href="{% if item.special_url %}{{item.special_url}}{% else %}/{{item.title | slugify}}.html{% endif %}" class="grid__inner project-card card" style="background-image: url(images/projects/{{item.client | downcase | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
     </div>
     {% endfor %}
   </div>

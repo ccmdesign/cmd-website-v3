@@ -97,7 +97,7 @@ title: CCM Design Inc.
     <section class="portfolio-gallery">
       {% for i in site.data.portfolio %}
       <div class="portfolio-item {% for j in i.tags %}tag-{{j}} {% endfor %}">
-        <img class="portfolio-item__image" src="/images/{{i.client_name | slugify}}/{{i.main_image}}">
+        <img class="portfolio-item__image" src="/images/{{i.client_name | downcase | slugify}}/{{i.main_image}}">
       </div>
       {% endfor %}
     </section>

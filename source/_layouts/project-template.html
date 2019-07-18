@@ -31,10 +31,10 @@ layout: default
     
     <section class="portfolio__main">
     {% if page.highlight.cols == 2 and page.tags contains 'logo' %}
-    <figure class="portfolio__image portfolio--logo" style="background-image: url(/images/projects/{{page.client | slugify }}/{{ page.highlight.image }});"></figure>
+    <figure class="portfolio__image portfolio--logo" style="background-image: url(/images/projects/{{page.client | downcase | slugify }}/{{ page.highlight.image }});"></figure>
     {% else %}
     <figure class="portfolio__image">
-      <img src="/images/projects/{{page.client | slugify }}/{{ page.highlight.image }}" alt="{{page.title}}">
+      <img src="/images/projects/{{page.client | downcase | slugify }}/{{ page.highlight.image }}" alt="{{page.title}}">
     </figure>
     {% endif %}
 
@@ -44,7 +44,7 @@ layout: default
           <div class="slider">
             {% for i in page.related-images %}
             <figure class="portfolio__image">
-              <img src="/images/projects/{{page.client | slugify }}/{{ i }}" alt="{{page.title}}">
+              <img src="/images/projects/{{page.client | downcase | slugify }}/{{ i }}" alt="{{page.title}}">
             </figure>
             {% endfor %}
             </div>

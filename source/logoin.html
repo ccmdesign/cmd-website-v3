@@ -11,7 +11,7 @@ title: CCM Design Inc.
   <div class="project-list wrapper">
     {% for item in site.data.free-logos %}
     <div class="grid__item logoin-grid-item">
-      <a href="/{{item.title | slugify}}.html" class="grid__inner project-card card" style="background-image: url(images/projects/{{item.client | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
+      <a href="/{{item.title | slugify}}.html" class="grid__inner project-card card" style="background-image: url(images/projects/{{item.client | downcase | slugify}}/{{item.highlight.image}})" title="{{item.title}}"></a>
     </div>
     {% endfor %}
   </div>
