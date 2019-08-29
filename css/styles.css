@@ -450,8 +450,7 @@ p > a {
   .client-band--govlab {
     max-height: 72px !important; }
   .client-band--harvard {
-    max-height: 86px !important;
-    max-width: 192px !important; }
+    max-height: 86px !important; }
 
 .js-hero-1 {
   background-image: url("../images/hero/andrew-welch-155220.jpg"); }
